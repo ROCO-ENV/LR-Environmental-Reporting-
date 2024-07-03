@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Company Name] - Environmental Consultancy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>[Your Company Name]</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">What We Do</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Welcome to [Your Company Name]</h2>
+        <p>Your partner in navigating environmental challenges and achieving sustainability goals.</p>
+    </section>
+    <section id="services">
+        <h2>What We Do</h2>
+        <div class="service">
+            <h3>Ad-Hoc Environmental Reports</h3>
+            <p>Our tailored environmental reports provide in-depth analysis and actionable insights on specific environmental challenges faced by your business. Whether you need assistance with waste management, energy efficiency, or emissions reduction, our team of experts is here to help.</p>
+        </div>
+        <div class="service">
+            <h3>Sustainable Business Strategies</h3>
+            <p>We work closely with you to develop and implement comprehensive sustainability strategies that align with your business objectives. From reducing your carbon footprint to enhancing resource efficiency, our solutions are designed to drive long-term environmental and economic benefits.</p>
+        </div>
+        <div class="service">
+            <h3>CSRD Reporting Preparation</h3>
+            <p>As the Corporate Sustainability Reporting Directive (CSRD) approaches, we offer specialized services to prepare your business for compliance. Our team ensures that you meet all regulatory requirements while positioning your company as a leader in sustainability.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 [Your Company Name]. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
